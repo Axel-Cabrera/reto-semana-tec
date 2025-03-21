@@ -42,7 +42,7 @@ jobs:
 #    - run: spark-submit --master local hello-spark.py
     - run: wget -O dataset.csv https://raw.githubusercontent.com/Axel-Cabrera/reto-semana-tec/refs/heads/master/zzz_characters_data.csv   
     - run: ls -la
-    - run: spark-submit --master local agents.py 
+    - run: spark-submit --master local agentsv2.py 
 
     - run: ls -la  
 

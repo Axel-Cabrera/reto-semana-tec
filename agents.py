@@ -8,7 +8,7 @@ if __name__ == "__main__":
         .getOrCreate()
 
     print("read dataset.csv ... ")
-    path_people="dataset.csv"
+    path_agents="dataset.csv"
     # Leemos el archivo CSV de agentes
     df_agents = spark.read.csv(path_agents, header=True, inferSchema=True)
 

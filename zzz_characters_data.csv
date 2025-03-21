@@ -1,0 +1,23 @@
+agent,attribute,specialty,type,faction,rarity,hp,def,atk,crit_rate,crit_dmg,pen_ratio,impact,atr_mastery,energy
+Anby,Electric,Stun,Slash,Cunning Hares,A Rank,7501,613,659,5.00%,50.00%,0%,136,93,1.2
+Anton,Electric,Attack,Pierce,Belobog Heavy Industries,A Rank,7219,623,792,19.40%,50.00%,0%,95,90,1.2
+Ben,Fire,Defense,Strike,Belobog Heavy Industries,A Rank,8578,724,653,5.00%,50.00%,0%,95,90,1.56
+Billy,Physical,Attack,Pierce,Cunning Hares,A Rank,6907,607,787,19.40%,50.00%,0%,91,91,1.2
+Burnice,Fire,Anomaly,Pierce,Sons of Calydon,S Rank,7368,601,863,5.00%,50.00%,0%,83,118,1.56
+Caesar,Physical,Defense,Slash,Sons of Calydon,S Rank,9526,754,712,5.00%,50.00%,0%,123,87,1.2
+Corin,Physical,Attack,Slash,Victoria Housekeeping,A Rank,6977,605,807,5.00%,78.80%,0%,93,96,1.2
+Ellen,Ice,Attack,Slash,Victoria Housekeeping,S Rank,7674,607,938,19.40%,50.00%,0%,93,93,1.2
+Grace,Electric,Anomaly,Pierce,Belobog Heavy Industries,S Rank,7483,601,826,5.00%,50.00%,0%,83,152,1.2
+Jane Doe,Physical,Anomaly,Slash,Criminal Investigation Team,S Rank,7789,607,881,5.00%,50.00%,0%,86,150,1.2
+Koleda,Fire,Stun,Strike,Belobog Heavy Industries,S Rank,8127,595,736,5.00%,50.00%,0%,134,96,1.2
+Lucy,Fire,Support,Strike,Sons of Calydon,A Rank,8026,613,659,5.00%,50.00%,0%,86,93,1.56
+Lycaon,Ice,Stun,Strike,Victoria Housekeeping,S Rank,8416,607,729,5.00%,50.00%,0%,137,90,1.2
+Nekomata,Physical,Attack,Slash,Cunning Hares,S Rank,7560,588,911,19.40%,50.00%,0%,92,96,1.2
+Nicole,Ether,Support,Strike,Cunning Hares,A Rank,8146,623,649,5.00%,50.00%,0%,88,93,1.56
+Piper,Physical,Anomaly,Slash,Sons of Calydon,A Rank,6977,613,758,5.00%,50.00%,0%,86,118,1.56
+Qingyi,Electric,Stun,Strike,Criminal Investigation Team,S Rank,8251,613,758,5.00%,50.00%,0%,136,94,1.2
+Rina,Electric,Support,Strike,Victoria Housekeeping,S Rank,8609,601,717,5.00%,50.00%,14%,83,92,1.2
+Seth,Electric,Defense,Slash,Criminal Investigation Team,A Rank,8701,746,643,5.00%,50.00%,0%,94,90,1.56
+Soldier 11,Fire,Attack,Slash,Obol Squad,S Rank,7674,613,889,19.40%,50.00%,0%,93,93,1.2
+Soukaku,Ice,Support,Slash,Section 6,A Rank,8026,598,666,5.00%,50.00%,0%,86,96,1.56
+Zhu Yuan,Ether,Attack,Pierce,Criminal Investigation Team,S Rank,7483,601,919,5.00%,78.80%,0%,90,92,1.2

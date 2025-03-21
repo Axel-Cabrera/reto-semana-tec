@@ -28,6 +28,7 @@ if __name__ == "__main__":
 
     df_agents_electric = spark.sql(query)
     df_agents_electric.show(20)
+    results = df_agents_electric.toJSON().collect()
 
     # Otra consulta, Agentes con atributo "Fire"
     query = """

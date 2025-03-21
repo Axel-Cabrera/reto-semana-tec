@@ -38,7 +38,9 @@ jobs:
       with:
         spark-version: '3.5.3'
         hadoop-version: '3'
-
+    # Agregar paso para instalar dependencias
+    - name: Install dependencies
+      run: pip install -r requirements.txt
 #    - run: spark-submit --master local hello-spark.py
     - run: wget -O dataset.csv https://raw.githubusercontent.com/Axel-Cabrera/reto-semana-tec/refs/heads/master/zzz_characters_data.csv   
     - run: ls -la

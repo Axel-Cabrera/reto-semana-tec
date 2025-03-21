@@ -38,3 +38,21 @@ jobs:
       with:
         spark-version: '3.5.3'
         hadoop-version: '3'
+
+#    - run: spark-submit --master local hello-spark.py
+    - run: wget -O dataset.csv https://raw.githubusercontent.com/Axel-Cabrera/reto-semana-tec/refs/heads/master/zzz_characters_data.csv   
+    - run: ls -la
+    - run: spark-submit --master local agents.py 
+
+    - run: ls -la  
+
+    - name: GIT commit and push docs
+      env: 
+        CI_COMMIT_MESSAGE: save spark results
+        CI_COMMIT_AUTHOR: Axel-Cabrera
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email "a01738945@tec.mx"
+        git add results
+        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push
